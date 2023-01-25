@@ -36,7 +36,6 @@ public class PasswordGenerator_bonus {
 		
 		System.out.println("Password: " +Name +"-" +Surname +"-" +Color +"-" +(Day +Month +Year));
 		
-	
 		s.close();
 	}
 

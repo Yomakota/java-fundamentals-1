@@ -11,7 +11,7 @@ public class sondaggio {
 		int studentsWindows;
 		int studentsLinux;
 
-		Scanner data = new Scanner(System.in);
+		Scanner data= new Scanner(System.in);
 
 		System.out.println("How many students in your class?");
 		students = data.nextInt();
@@ -32,6 +32,8 @@ public class sondaggio {
 		System.out.println(UserStudentsMacOs + "%" + " of students use MacOs");
 		System.out.println(UserStudentsWindows + "%" + " of students use Windows");
 		System.out.println(UserStudentsLinux + "%" + " of students use Linux");
+		
+		data.close();
 	}
 
 }
