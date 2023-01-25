@@ -6,9 +6,9 @@ public class PasswordGenerator {
 		String Name= "Giuseppe";
 		String Surname= "Garibaldi";
 		String Color= "Red";
-		byte Day= 5;
-		byte Month= 5;
-		short Year= 1990;
+		int Day= 5;
+		int Month= 5;
+		int Year= 1990;
 		
 		
 		System.out.println("Password: " +Name +"-" +Surname +"-" +Color +"-" +(Day +Month +Year));

@@ -10,9 +10,9 @@ public class PasswordGenerator_bonus {
 		String Name;
 		String Surname;
 		String Color;
-		byte Day;
-		byte Month;
-		short Year;
+		int Day;
+		int Month;
+		int Year;
 
 		Scanner s= new Scanner(System.in);
 
@@ -26,13 +26,13 @@ public class PasswordGenerator_bonus {
 		Color = s.nextLine();
 		
 		System.out.print("Day of your date of birth: ");
-		Day = s.nextByte();
+		Day = s.nextInt();
 		
 		System.out.print("Month of your date of birth: ");
-		Month = s.nextByte();
+		Month = s.nextInt();
 		
-		System.out.print("Year of birth ");
-		Year = s.nextShort();
+		System.out.print("Year of birth: ");
+		Year = s.nextInt();
 		
 		System.out.println("Password: " +Name +"-" +Surname +"-" +Color +"-" +(Day +Month +Year));
 		
