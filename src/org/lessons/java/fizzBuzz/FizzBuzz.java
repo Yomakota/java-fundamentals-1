@@ -1,7 +1,5 @@
 package org.lessons.java.fizzBuzz;
 
-import java.util.Random;
-
 public class FizzBuzz {
 
 	public static void main(String[] args) {

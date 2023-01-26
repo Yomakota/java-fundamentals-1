@@ -11,7 +11,7 @@ public class Favourite_food {
 		System.out.println("cibo preferito : " + favouriteFood[0]);
 
 		System.out.println("meno preferito : " + favouriteFood[favouriteFood.length - 1]);
-		
+
 		System.out.println("Metà classifica: " + favouriteFood[(favouriteFood.length) / 2]);
 
 	}
