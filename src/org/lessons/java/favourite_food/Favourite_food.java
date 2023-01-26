@@ -4,13 +4,13 @@ public class Favourite_food {
 
 	public static void main(String[] args) {
 
-		String[] FavouriteFood = {"pasta", "torta", "pesce", "carne", "cioccolato", "frutta"};
-		
+		String[] FavouriteFood = { "pasta", "torta", "pesce", "carne", "cioccolato", "frutta", "uova" };
+
 		System.out.println("Lunghezza classifica: " + FavouriteFood.length);
-		
+
 		System.out.println("cibo preferito : " + FavouriteFood[0]);
-		
-		System.out.println("meno preferito : " + FavouriteFood[5]);
+
+		System.out.println("meno preferito : " + FavouriteFood[FavouriteFood.length-1]);
 
 	}
 
