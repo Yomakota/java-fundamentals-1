@@ -10,19 +10,19 @@ public class CheckGuest {
 				"Bebe Vio", "Luis", "Pardis Zarei", "Martina Maccherone", "Rachel Zeili" };
 
 		Scanner s = new Scanner(System.in);
-		
+
 		System.out.println("Insert your name: ");
-		
-		String Username = s.nextLine();
+
+		String username = s.nextLine();
 
 		s.close();
 
 		for (int i = 0; i < guests.length; i++) {
-			
-			if (Username.toLowerCase().equals(guests[i].toLowerCase())) {
-				System.out.println("Welcome: " + Username);
+
+			if (username.toLowerCase().equals(guests[i].toLowerCase())) {
+				System.out.println("Welcome: " + username);
 				break;
-				
+
 			} else {
 				System.out.println("You are not on the list!");
 				break;
